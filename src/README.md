@@ -37,6 +37,34 @@ docker run -it \
 
 ## Ways to use the API Security container
 
+There are two bash scripts I wrote to make this super easy to use.  Their full descriptions are in the next section.  Your typical demo actions once you are running inside the container's bash shell are as follows.  The outputs of each command are the "summary" outputs.  If you'd like to see the JSON in it's full splendor, add "json" as the 2nd argument.
+
+### Fetching existing, cached summary results
+
+- ./get_job.sh oas
+- ./get_job.sh 3rdparty
+- ./get_job.sh fuzzer
+
+### Fetching existing, cached detailed JSON results
+
+- ./get_job.sh oas json
+- ./get_job.sh 3rdparty json
+- ./get_job.sh fuzzer json
+
+### Generating new CICD jobs and fetching new summary results
+
+- ./run_job.sh oas
+- ./run_job.sh 3rdparty
+- ./run_job.sh fuzzer
+
+### Generating new CICD jobs and fetching new detailed results
+
+- ./run_job.sh oas json
+- ./run_job.sh 3rdparty json
+- ./run_job.sh fuzzer json
+  
+## Bash Script Descriptions
+
 - There is a **get_job.sh** script for fetching previously cached API security jobs (best for conferences, and quick review of outputs).
 
 ```
