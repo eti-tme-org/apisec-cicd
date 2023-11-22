@@ -2,13 +2,15 @@
 
 ## Instructions
 
+Download (or copy from the parent) the API Security CICD CLI binary from the Panoptica [API Security](https://console.panoptica.app/settings/api_sec) Settings page.  You'll need the Linux version but the platform (AppleSilicon, AMD64, etc.) depends on that platform your container will run on.
+
 Build the container locally:
 
 ```bash
 docker build -f Dockerfile -t apisec:0.1 -t apisec:latest .
 ```
 
-Set up the Panoptica API keys for the API Security CLI:
+Set up the Panoptica API keys for the API Security CLI. This assumes that you have updated the contents of the file with the actual API Security keys from the Panoptica [API Security](https://console.panoptica.app/settings/api_sec) Settings page (see [README.md](../README.md)):
 
 ```bash
 source ../config/cicd.api.keys
