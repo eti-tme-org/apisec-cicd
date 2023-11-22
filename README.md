@@ -2,7 +2,7 @@
 
 ## Want a simple Docker environment?
 
-Check out the [Docker container instructions](src/README.md)
+Check out the [Docker container instructions](container/README.md)
 
 ## Setup local demo environment
 
