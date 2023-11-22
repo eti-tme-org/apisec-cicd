@@ -1,5 +1,9 @@
 # Panoptica API Security CI/CD CLI Demo
 
+## Want a simple Docker environment?
+
+Check out the [Docker container instructions](src/README.md)
+
 ## Setup local demo environment
 
 Need to get an assortment of OpenAPI specification files to test. For general usage, I recommend getting the [Sock Shop OpenAPI Specs](https://github.com/eti-tme-org/sock-shop-specs).
