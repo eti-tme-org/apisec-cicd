@@ -1,0 +1,6 @@
+ID                                    SEVERITY  CATEGORIES   FINDING TYPE ID          SOURCE 
+2d620a3c-ce8c-49d2-bf00-84dc4e4c9aac  info      network      PORTS                    shodan  
+7557b575-8ddf-433b-ac6e-858172767933  low       application  MISSING_SECURITY_HEADER  shodan  
+a9995c82-6408-4ab3-9d6c-6d6bb2a20bd2  low       network      SECURITY_CONFIGURATION   shodan  
+4deac1c2-4e48-4928-a125-90d9cd6e49e9  info      network      PORTS                    shodan  
+36a3dc92-1e4c-4897-ad44-6d19a7c14841  low       application  MISSING_SECURITY_HEADER  shodan  

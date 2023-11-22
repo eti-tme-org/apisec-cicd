@@ -1,0 +1,1109 @@
+{
+  "createdAt": "2023-11-21T20:20:53.799007Z",
+  "id": "9473ff65-a629-49be-a7aa-c41b2cde705f",
+  "items": [
+    {
+      "additionalInfo": {
+        "method": "get",
+        "path": "/carts/{customerId}",
+        "specPath": "#/paths/~1carts~1{customerId}/get/parameters/0/x-example"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "The spec includes an unknown property. \nThe presence of unknown properties in the spec is usually not harmful, however it may indicate a typo that may affect the correctnes of the spec. Moreover, formally invalid spec may cause issue with automatic code generation potentially used by client and servers, triggering in turn unexpected and insecure behavior. \n",
+      "detailedDescription": "The spec includes an unknown property. \nThe presence of unknown properties in the spec is usually not harmful, however it may indicate a typo that may affect the correctnes of the spec. Moreover, formally invalid spec may cause issue with automatic code generation potentially used by client and servers, triggering in turn unexpected and insecure behavior. \n",
+      "findingTypeId": "FSE017",
+      "id": "a64a622e-ee73-45da-be90-e3ed065489f4",
+      "severity": "info",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "delete",
+        "path": "/carts/{customerId}",
+        "specPath": "#/paths/~1carts~1{customerId}/delete/parameters/0/x-example"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "The spec includes an unknown property. \nThe presence of unknown properties in the spec is usually not harmful, however it may indicate a typo that may affect the correctnes of the spec. Moreover, formally invalid spec may cause issue with automatic code generation potentially used by client and servers, triggering in turn unexpected and insecure behavior. \n",
+      "detailedDescription": "The spec includes an unknown property. \nThe presence of unknown properties in the spec is usually not harmful, however it may indicate a typo that may affect the correctnes of the spec. Moreover, formally invalid spec may cause issue with automatic code generation potentially used by client and servers, triggering in turn unexpected and insecure behavior. \n",
+      "findingTypeId": "FSE017",
+      "id": "ff1a3aae-11fa-41e3-87f5-c3f06d1b1618",
+      "severity": "info",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "post",
+        "path": "/carts/{customerId}/items",
+        "specPath": "#/paths/~1carts~1{customerId}~1items/post/parameters/0/x-example"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "The spec includes an unknown property. \nThe presence of unknown properties in the spec is usually not harmful, however it may indicate a typo that may affect the correctnes of the spec. Moreover, formally invalid spec may cause issue with automatic code generation potentially used by client and servers, triggering in turn unexpected and insecure behavior. \n",
+      "detailedDescription": "The spec includes an unknown property. \nThe presence of unknown properties in the spec is usually not harmful, however it may indicate a typo that may affect the correctnes of the spec. Moreover, formally invalid spec may cause issue with automatic code generation potentially used by client and servers, triggering in turn unexpected and insecure behavior. \n",
+      "findingTypeId": "FSE017",
+      "id": "94483355-799d-4123-92ef-627ed1c5c07a",
+      "severity": "info",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "post",
+        "path": "/carts/{customerId}/items",
+        "specPath": "#/paths/~1carts~1{customerId}~1items/post/parameters/1/schema"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "The spec defines additional property together with a reference, however the standard does not allow any property when a reference is defined. This makes the spec invalid.\nFormally invalid spec may cause issue with automatic code generation potentially used by client and servers, triggering in turn unexpected and insecure behavior. \n\n",
+      "detailedDescription": "The spec defines additional property together with a reference, however the standard does not allow any property when a reference is defined. This makes the spec invalid.\nFormally invalid spec may cause issue with automatic code generation potentially used by client and servers, triggering in turn unexpected and insecure behavior. \n\n",
+      "findingTypeId": "FST008",
+      "id": "123154cd-8dbd-43f4-b0e9-a5b433e1a50c",
+      "severity": "info",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "patch",
+        "path": "/carts/{customerId}/items",
+        "specPath": "#/paths/~1carts~1{customerId}~1items/patch/parameters/0/x-example"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "The spec includes an unknown property. \nThe presence of unknown properties in the spec is usually not harmful, however it may indicate a typo that may affect the correctnes of the spec. Moreover, formally invalid spec may cause issue with automatic code generation potentially used by client and servers, triggering in turn unexpected and insecure behavior. \n",
+      "detailedDescription": "The spec includes an unknown property. \nThe presence of unknown properties in the spec is usually not harmful, however it may indicate a typo that may affect the correctnes of the spec. Moreover, formally invalid spec may cause issue with automatic code generation potentially used by client and servers, triggering in turn unexpected and insecure behavior. \n",
+      "findingTypeId": "FSE017",
+      "id": "be29df01-b5ff-4008-8616-f7e927b70fe7",
+      "severity": "info",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "delete",
+        "path": "/carts/{customerId}/items/{itemId}",
+        "specPath": "#/paths/~1carts~1{customerId}~1items~1{itemId}/delete/parameters/0/x-example"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "The spec includes an unknown property. \nThe presence of unknown properties in the spec is usually not harmful, however it may indicate a typo that may affect the correctnes of the spec. Moreover, formally invalid spec may cause issue with automatic code generation potentially used by client and servers, triggering in turn unexpected and insecure behavior. \n",
+      "detailedDescription": "The spec includes an unknown property. \nThe presence of unknown properties in the spec is usually not harmful, however it may indicate a typo that may affect the correctnes of the spec. Moreover, formally invalid spec may cause issue with automatic code generation potentially used by client and servers, triggering in turn unexpected and insecure behavior. \n",
+      "findingTypeId": "FSE017",
+      "id": "376fd9da-d83a-42df-bd93-7f534f192b56",
+      "severity": "info",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "delete",
+        "path": "/carts/{customerId}/items/{itemId}",
+        "specPath": "#/paths/~1carts~1{customerId}~1items~1{itemId}/delete/parameters/1/x-example"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "The spec includes an unknown property. \nThe presence of unknown properties in the spec is usually not harmful, however it may indicate a typo that may affect the correctnes of the spec. Moreover, formally invalid spec may cause issue with automatic code generation potentially used by client and servers, triggering in turn unexpected and insecure behavior. \n",
+      "detailedDescription": "The spec includes an unknown property. \nThe presence of unknown properties in the spec is usually not harmful, however it may indicate a typo that may affect the correctnes of the spec. Moreover, formally invalid spec may cause issue with automatic code generation potentially used by client and servers, triggering in turn unexpected and insecure behavior. \n",
+      "findingTypeId": "FSE017",
+      "id": "da33e3ec-ffce-484b-9429-94ad5a879f5f",
+      "severity": "info",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "get",
+        "path": "/carts/{customerId}",
+        "specPath": "#/paths/~1carts~1{customerId}/get/responses"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Specifications must always include response  definitions for all supported  status-codes. \n4xx status-codes are used to signal the failure of an API operation because of a client error. All operations, but HEAD operation, must support the  client error  status-code  -400 Bad Request-.\nSpec analyzer found an API operation that does not define any response for such status-code.\n\nLack of such definitions prevents formal checks on the response, which may represent a risk for (1) API Servers who may unwillingly leak reserved data potentially exploitable by attachers, and (2)  API clients, which cannot effectively defend from code injection attampted by  API servers  \n\n",
+      "detailedDescription": "Specifications must always include response  definitions for all supported  status-codes. \n4xx status-codes are used to signal the failure of an API operation because of a client error. All operations, but HEAD operation, must support the  client error  status-code  -400 Bad Request-.\nSpec analyzer found an API operation that does not define any response for such status-code.\n\nLack of such definitions prevents formal checks on the response, which may represent a risk for (1) API Servers who may unwillingly leak reserved data potentially exploitable by attachers, and (2)  API clients, which cannot effectively defend from code injection attampted by  API servers  \n\n",
+      "findingTypeId": "RDT002",
+      "id": "790c75ac-ac86-44c1-bc4a-f4d23011cf64",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "delete",
+        "path": "/carts/{customerId}",
+        "specPath": "#/paths/~1carts~1{customerId}/delete/responses"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Specifications must always include response  definitions for all supported  status-codes. \n4xx status-codes are used to signal the failure of an API operation because of a client error. All operations, but HEAD operation, must support the  client error  status-code  -400 Bad Request-.\nSpec analyzer found an API operation that does not define any response for such status-code.\n\nLack of such definitions prevents formal checks on the response, which may represent a risk for (1) API Servers who may unwillingly leak reserved data potentially exploitable by attachers, and (2)  API clients, which cannot effectively defend from code injection attampted by  API servers  \n\n",
+      "detailedDescription": "Specifications must always include response  definitions for all supported  status-codes. \n4xx status-codes are used to signal the failure of an API operation because of a client error. All operations, but HEAD operation, must support the  client error  status-code  -400 Bad Request-.\nSpec analyzer found an API operation that does not define any response for such status-code.\n\nLack of such definitions prevents formal checks on the response, which may represent a risk for (1) API Servers who may unwillingly leak reserved data potentially exploitable by attachers, and (2)  API clients, which cannot effectively defend from code injection attampted by  API servers  \n\n",
+      "findingTypeId": "RDT002",
+      "id": "d9bdc4f4-1ec1-4075-a070-aa23b4b61dbc",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "post",
+        "path": "/carts/{customerId}/items",
+        "specPath": "#/paths/~1carts~1{customerId}~1items/post/responses"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Specifications must always include response  definitions for all supported  status-codes. \n4xx status-codes are used to signal the failure of an API operation because of a client error. All operations, but HEAD operation, must support the  client error  status-code  -400 Bad Request-.\nSpec analyzer found an API operation that does not define any response for such status-code.\n\nLack of such definitions prevents formal checks on the response, which may represent a risk for (1) API Servers who may unwillingly leak reserved data potentially exploitable by attachers, and (2)  API clients, which cannot effectively defend from code injection attampted by  API servers  \n\n",
+      "detailedDescription": "Specifications must always include response  definitions for all supported  status-codes. \n4xx status-codes are used to signal the failure of an API operation because of a client error. All operations, but HEAD operation, must support the  client error  status-code  -400 Bad Request-.\nSpec analyzer found an API operation that does not define any response for such status-code.\n\nLack of such definitions prevents formal checks on the response, which may represent a risk for (1) API Servers who may unwillingly leak reserved data potentially exploitable by attachers, and (2)  API clients, which cannot effectively defend from code injection attampted by  API servers  \n\n",
+      "findingTypeId": "RDT002",
+      "id": "3f55a036-ec52-45c6-b733-2c5781798d00",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "patch",
+        "path": "/carts/{customerId}/items",
+        "specPath": "#/paths/~1carts~1{customerId}~1items/patch/responses"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Specifications must always include response  definitions for all supported  status-codes. \n4xx status-codes are used to signal the failure of an API operation because of a client error. All operations, but HEAD operation, must support the  client error  status-code  -400 Bad Request-.\nSpec analyzer found an API operation that does not define any response for such status-code.\n\nLack of such definitions prevents formal checks on the response, which may represent a risk for (1) API Servers who may unwillingly leak reserved data potentially exploitable by attachers, and (2)  API clients, which cannot effectively defend from code injection attampted by  API servers  \n\n",
+      "detailedDescription": "Specifications must always include response  definitions for all supported  status-codes. \n4xx status-codes are used to signal the failure of an API operation because of a client error. All operations, but HEAD operation, must support the  client error  status-code  -400 Bad Request-.\nSpec analyzer found an API operation that does not define any response for such status-code.\n\nLack of such definitions prevents formal checks on the response, which may represent a risk for (1) API Servers who may unwillingly leak reserved data potentially exploitable by attachers, and (2)  API clients, which cannot effectively defend from code injection attampted by  API servers  \n\n",
+      "findingTypeId": "RDT002",
+      "id": "58713f66-454a-446b-ae37-cecf2230330c",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "delete",
+        "path": "/carts/{customerId}/items/{itemId}",
+        "specPath": "#/paths/~1carts~1{customerId}~1items~1{itemId}/delete/responses"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Specifications must always include response  definitions for all supported  status-codes. \n4xx status-codes are used to signal the failure of an API operation because of a client error. All operations, but HEAD operation, must support the  client error  status-code  -400 Bad Request-.\nSpec analyzer found an API operation that does not define any response for such status-code.\n\nLack of such definitions prevents formal checks on the response, which may represent a risk for (1) API Servers who may unwillingly leak reserved data potentially exploitable by attachers, and (2)  API clients, which cannot effectively defend from code injection attampted by  API servers  \n\n",
+      "detailedDescription": "Specifications must always include response  definitions for all supported  status-codes. \n4xx status-codes are used to signal the failure of an API operation because of a client error. All operations, but HEAD operation, must support the  client error  status-code  -400 Bad Request-.\nSpec analyzer found an API operation that does not define any response for such status-code.\n\nLack of such definitions prevents formal checks on the response, which may represent a risk for (1) API Servers who may unwillingly leak reserved data potentially exploitable by attachers, and (2)  API clients, which cannot effectively defend from code injection attampted by  API servers  \n\n",
+      "findingTypeId": "RDT002",
+      "id": "59d73ee1-6ffd-4d94-b765-af7447bb1a32",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "get",
+        "path": "/carts/{customerId}",
+        "specPath": "#/paths/~1carts~1{customerId}/get/responses"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Specifications must always include response  definitions for all supported  status-codes. \n4xx status-codes are used to signal the failure of an API operation because of a client error.  All operations for methods GET, PUT, HEAD, and DELETE  must support the client error  status-code -404  Not Found-.\nSpec analyzer found an API operation that does not define any response for such status-code.\n\nLack of such definitions prevents formal checks on the response, which may represent a risk for (1) API Servers who may unwillingly leak reserved data potentially exploitable by attachers, and (2)  API clients, which cannot effectively defend from code injection attampted by  API servers  \n\n",
+      "detailedDescription": "Specifications must always include response  definitions for all supported  status-codes. \n4xx status-codes are used to signal the failure of an API operation because of a client error.  All operations for methods GET, PUT, HEAD, and DELETE  must support the client error  status-code -404  Not Found-.\nSpec analyzer found an API operation that does not define any response for such status-code.\n\nLack of such definitions prevents formal checks on the response, which may represent a risk for (1) API Servers who may unwillingly leak reserved data potentially exploitable by attachers, and (2)  API clients, which cannot effectively defend from code injection attampted by  API servers  \n\n",
+      "findingTypeId": "RDT003",
+      "id": "8a5a51d0-a168-4194-b913-c89b65ad6d53",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "post",
+        "path": "/carts/{customerId}/items",
+        "specPath": "#/paths/~1carts~1{customerId}~1items/post/responses"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Specifications must always include response  definitions for all supported  status-codes. \n4xx status-codes are used to signal the failure of an API operation because of a client error.  All operations for methods allowing for request bodies, i.e. POST, PUT,  and PATCH  must support the client error  status-code -415 Unsupported Media Type-.\nSpec analyzer found an API operation that does not define any response for such status-code.\n\nLack of such definitions prevents formal checks on the response, which may represent a risk for (1) API Servers who may unwillingly leak reserved data potentially exploitable by attachers, and (2)  API clients, which cannot effectively defend from code injection attampted by  API servers  \n\n",
+      "detailedDescription": "Specifications must always include response  definitions for all supported  status-codes. \n4xx status-codes are used to signal the failure of an API operation because of a client error.  All operations for methods allowing for request bodies, i.e. POST, PUT,  and PATCH  must support the client error  status-code -415 Unsupported Media Type-.\nSpec analyzer found an API operation that does not define any response for such status-code.\n\nLack of such definitions prevents formal checks on the response, which may represent a risk for (1) API Servers who may unwillingly leak reserved data potentially exploitable by attachers, and (2)  API clients, which cannot effectively defend from code injection attampted by  API servers  \n\n",
+      "findingTypeId": "RDT004",
+      "id": "88fc58e1-69cb-4aeb-a6e2-14091ceb285a",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "get",
+        "path": "/carts/{customerId}",
+        "specPath": "#/paths/~1carts~1{customerId}/get/responses"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Specifications must always include response  definitions for all supported  status-codes. \n4xx status-codes are used to signal the failure of an API operation because of a client error. All operations, but HEAD operation, must support the  client error  status-code -429 Too Many Requests-.\nSpec analyzer found an API operation that does not define any response for such status-code.\n\nLack of such definitions prevents formal checks on the response, which may represent a risk for (1) API Servers who may unwillingly leak reserved data potentially exploitable by attachers, and (2)  API clients, which cannot effectively defend from code injection attampted by  API servers  \n\n",
+      "detailedDescription": "Specifications must always include response  definitions for all supported  status-codes. \n4xx status-codes are used to signal the failure of an API operation because of a client error. All operations, but HEAD operation, must support the  client error  status-code -429 Too Many Requests-.\nSpec analyzer found an API operation that does not define any response for such status-code.\n\nLack of such definitions prevents formal checks on the response, which may represent a risk for (1) API Servers who may unwillingly leak reserved data potentially exploitable by attachers, and (2)  API clients, which cannot effectively defend from code injection attampted by  API servers  \n\n",
+      "findingTypeId": "RDT005",
+      "id": "c13ad1c0-3f41-4c36-9f0b-d3d47af14385",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "delete",
+        "path": "/carts/{customerId}",
+        "specPath": "#/paths/~1carts~1{customerId}/delete/responses"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Specifications must always include response  definitions for all supported  status-codes. \n4xx status-codes are used to signal the failure of an API operation because of a client error. All operations, but HEAD operation, must support the  client error  status-code -429 Too Many Requests-.\nSpec analyzer found an API operation that does not define any response for such status-code.\n\nLack of such definitions prevents formal checks on the response, which may represent a risk for (1) API Servers who may unwillingly leak reserved data potentially exploitable by attachers, and (2)  API clients, which cannot effectively defend from code injection attampted by  API servers  \n\n",
+      "detailedDescription": "Specifications must always include response  definitions for all supported  status-codes. \n4xx status-codes are used to signal the failure of an API operation because of a client error. All operations, but HEAD operation, must support the  client error  status-code -429 Too Many Requests-.\nSpec analyzer found an API operation that does not define any response for such status-code.\n\nLack of such definitions prevents formal checks on the response, which may represent a risk for (1) API Servers who may unwillingly leak reserved data potentially exploitable by attachers, and (2)  API clients, which cannot effectively defend from code injection attampted by  API servers  \n\n",
+      "findingTypeId": "RDT005",
+      "id": "3e58c33c-bc9a-4e89-8f51-282229d9c27b",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "post",
+        "path": "/carts/{customerId}/items",
+        "specPath": "#/paths/~1carts~1{customerId}~1items/post/responses"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Specifications must always include response  definitions for all supported  status-codes. \n4xx status-codes are used to signal the failure of an API operation because of a client error. All operations, but HEAD operation, must support the  client error  status-code -429 Too Many Requests-.\nSpec analyzer found an API operation that does not define any response for such status-code.\n\nLack of such definitions prevents formal checks on the response, which may represent a risk for (1) API Servers who may unwillingly leak reserved data potentially exploitable by attachers, and (2)  API clients, which cannot effectively defend from code injection attampted by  API servers  \n\n",
+      "detailedDescription": "Specifications must always include response  definitions for all supported  status-codes. \n4xx status-codes are used to signal the failure of an API operation because of a client error. All operations, but HEAD operation, must support the  client error  status-code -429 Too Many Requests-.\nSpec analyzer found an API operation that does not define any response for such status-code.\n\nLack of such definitions prevents formal checks on the response, which may represent a risk for (1) API Servers who may unwillingly leak reserved data potentially exploitable by attachers, and (2)  API clients, which cannot effectively defend from code injection attampted by  API servers  \n\n",
+      "findingTypeId": "RDT005",
+      "id": "1f0ac2f2-8343-45cb-a02b-2b81bcf0d41f",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "patch",
+        "path": "/carts/{customerId}/items",
+        "specPath": "#/paths/~1carts~1{customerId}~1items/patch/responses"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Specifications must always include response  definitions for all supported  status-codes. \n4xx status-codes are used to signal the failure of an API operation because of a client error. All operations, but HEAD operation, must support the  client error  status-code -429 Too Many Requests-.\nSpec analyzer found an API operation that does not define any response for such status-code.\n\nLack of such definitions prevents formal checks on the response, which may represent a risk for (1) API Servers who may unwillingly leak reserved data potentially exploitable by attachers, and (2)  API clients, which cannot effectively defend from code injection attampted by  API servers  \n\n",
+      "detailedDescription": "Specifications must always include response  definitions for all supported  status-codes. \n4xx status-codes are used to signal the failure of an API operation because of a client error. All operations, but HEAD operation, must support the  client error  status-code -429 Too Many Requests-.\nSpec analyzer found an API operation that does not define any response for such status-code.\n\nLack of such definitions prevents formal checks on the response, which may represent a risk for (1) API Servers who may unwillingly leak reserved data potentially exploitable by attachers, and (2)  API clients, which cannot effectively defend from code injection attampted by  API servers  \n\n",
+      "findingTypeId": "RDT005",
+      "id": "f56bcac0-9187-4a64-9d02-32d7d2f647ee",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "delete",
+        "path": "/carts/{customerId}/items/{itemId}",
+        "specPath": "#/paths/~1carts~1{customerId}~1items~1{itemId}/delete/responses"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Specifications must always include response  definitions for all supported  status-codes. \n4xx status-codes are used to signal the failure of an API operation because of a client error. All operations, but HEAD operation, must support the  client error  status-code -429 Too Many Requests-.\nSpec analyzer found an API operation that does not define any response for such status-code.\n\nLack of such definitions prevents formal checks on the response, which may represent a risk for (1) API Servers who may unwillingly leak reserved data potentially exploitable by attachers, and (2)  API clients, which cannot effectively defend from code injection attampted by  API servers  \n\n",
+      "detailedDescription": "Specifications must always include response  definitions for all supported  status-codes. \n4xx status-codes are used to signal the failure of an API operation because of a client error. All operations, but HEAD operation, must support the  client error  status-code -429 Too Many Requests-.\nSpec analyzer found an API operation that does not define any response for such status-code.\n\nLack of such definitions prevents formal checks on the response, which may represent a risk for (1) API Servers who may unwillingly leak reserved data potentially exploitable by attachers, and (2)  API clients, which cannot effectively defend from code injection attampted by  API servers  \n\n",
+      "findingTypeId": "RDT005",
+      "id": "7dda4e30-7dd1-4521-839a-035923f1cef7",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "get",
+        "path": "/carts/{customerId}",
+        "specPath": "#/paths/~1carts~1{customerId}/get/responses"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Specifications must always include response  definitions for all supported  status-codes. \n5xx status-codes are used to signal the failure of an API operation because of a server error. All operations, but HEAD operation, must support the  client error  status-code -500 Internal Server Error-.\nSpec analyzer found an API operation that does not define any response for such status-code.\n\nLack of such definitions prevents formal checks on the response, which may represent a risk for (1) API Servers who may unwillingly leak reserved data potentially exploitable by attachers, and (2)  API clients, which cannot effectively defend from code injection attampted by  API servers  \n\n",
+      "detailedDescription": "Specifications must always include response  definitions for all supported  status-codes. \n5xx status-codes are used to signal the failure of an API operation because of a server error. All operations, but HEAD operation, must support the  client error  status-code -500 Internal Server Error-.\nSpec analyzer found an API operation that does not define any response for such status-code.\n\nLack of such definitions prevents formal checks on the response, which may represent a risk for (1) API Servers who may unwillingly leak reserved data potentially exploitable by attachers, and (2)  API clients, which cannot effectively defend from code injection attampted by  API servers  \n\n",
+      "findingTypeId": "RDT006",
+      "id": "a44750de-d62f-4a3d-aa9c-d85e9f3cea8e",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "delete",
+        "path": "/carts/{customerId}",
+        "specPath": "#/paths/~1carts~1{customerId}/delete/responses"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Specifications must always include response  definitions for all supported  status-codes. \n5xx status-codes are used to signal the failure of an API operation because of a server error. All operations, but HEAD operation, must support the  client error  status-code -500 Internal Server Error-.\nSpec analyzer found an API operation that does not define any response for such status-code.\n\nLack of such definitions prevents formal checks on the response, which may represent a risk for (1) API Servers who may unwillingly leak reserved data potentially exploitable by attachers, and (2)  API clients, which cannot effectively defend from code injection attampted by  API servers  \n\n",
+      "detailedDescription": "Specifications must always include response  definitions for all supported  status-codes. \n5xx status-codes are used to signal the failure of an API operation because of a server error. All operations, but HEAD operation, must support the  client error  status-code -500 Internal Server Error-.\nSpec analyzer found an API operation that does not define any response for such status-code.\n\nLack of such definitions prevents formal checks on the response, which may represent a risk for (1) API Servers who may unwillingly leak reserved data potentially exploitable by attachers, and (2)  API clients, which cannot effectively defend from code injection attampted by  API servers  \n\n",
+      "findingTypeId": "RDT006",
+      "id": "95b21d51-9a3d-48a1-8725-d7c0f2ddb9b0",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "post",
+        "path": "/carts/{customerId}/items",
+        "specPath": "#/paths/~1carts~1{customerId}~1items/post/responses"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Specifications must always include response  definitions for all supported  status-codes. \n5xx status-codes are used to signal the failure of an API operation because of a server error. All operations, but HEAD operation, must support the  client error  status-code -500 Internal Server Error-.\nSpec analyzer found an API operation that does not define any response for such status-code.\n\nLack of such definitions prevents formal checks on the response, which may represent a risk for (1) API Servers who may unwillingly leak reserved data potentially exploitable by attachers, and (2)  API clients, which cannot effectively defend from code injection attampted by  API servers  \n\n",
+      "detailedDescription": "Specifications must always include response  definitions for all supported  status-codes. \n5xx status-codes are used to signal the failure of an API operation because of a server error. All operations, but HEAD operation, must support the  client error  status-code -500 Internal Server Error-.\nSpec analyzer found an API operation that does not define any response for such status-code.\n\nLack of such definitions prevents formal checks on the response, which may represent a risk for (1) API Servers who may unwillingly leak reserved data potentially exploitable by attachers, and (2)  API clients, which cannot effectively defend from code injection attampted by  API servers  \n\n",
+      "findingTypeId": "RDT006",
+      "id": "0f0f8fbe-d4b5-4ea8-b7ab-e1ae390b628f",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "patch",
+        "path": "/carts/{customerId}/items",
+        "specPath": "#/paths/~1carts~1{customerId}~1items/patch/responses"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Specifications must always include response  definitions for all supported  status-codes. \n5xx status-codes are used to signal the failure of an API operation because of a server error. All operations, but HEAD operation, must support the  client error  status-code -500 Internal Server Error-.\nSpec analyzer found an API operation that does not define any response for such status-code.\n\nLack of such definitions prevents formal checks on the response, which may represent a risk for (1) API Servers who may unwillingly leak reserved data potentially exploitable by attachers, and (2)  API clients, which cannot effectively defend from code injection attampted by  API servers  \n\n",
+      "detailedDescription": "Specifications must always include response  definitions for all supported  status-codes. \n5xx status-codes are used to signal the failure of an API operation because of a server error. All operations, but HEAD operation, must support the  client error  status-code -500 Internal Server Error-.\nSpec analyzer found an API operation that does not define any response for such status-code.\n\nLack of such definitions prevents formal checks on the response, which may represent a risk for (1) API Servers who may unwillingly leak reserved data potentially exploitable by attachers, and (2)  API clients, which cannot effectively defend from code injection attampted by  API servers  \n\n",
+      "findingTypeId": "RDT006",
+      "id": "75c86ac3-96b5-4819-a899-1b5adc665937",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "delete",
+        "path": "/carts/{customerId}/items/{itemId}",
+        "specPath": "#/paths/~1carts~1{customerId}~1items~1{itemId}/delete/responses"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Specifications must always include response  definitions for all supported  status-codes. \n5xx status-codes are used to signal the failure of an API operation because of a server error. All operations, but HEAD operation, must support the  client error  status-code -500 Internal Server Error-.\nSpec analyzer found an API operation that does not define any response for such status-code.\n\nLack of such definitions prevents formal checks on the response, which may represent a risk for (1) API Servers who may unwillingly leak reserved data potentially exploitable by attachers, and (2)  API clients, which cannot effectively defend from code injection attampted by  API servers  \n\n",
+      "detailedDescription": "Specifications must always include response  definitions for all supported  status-codes. \n5xx status-codes are used to signal the failure of an API operation because of a server error. All operations, but HEAD operation, must support the  client error  status-code -500 Internal Server Error-.\nSpec analyzer found an API operation that does not define any response for such status-code.\n\nLack of such definitions prevents formal checks on the response, which may represent a risk for (1) API Servers who may unwillingly leak reserved data potentially exploitable by attachers, and (2)  API clients, which cannot effectively defend from code injection attampted by  API servers  \n\n",
+      "findingTypeId": "RDT006",
+      "id": "02eb508c-d6dd-42ca-b7b8-2b0a50b2f19b",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "get",
+        "path": "/carts/{customerId}",
+        "specPath": "#/paths/~1carts~1{customerId}/get/responses"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Specifications must always include response  definitions for all supported  status-codes. \nIt's a good practice to add a default response definitions for all status-codes that are supported but not explicitely defined.\n\nLack of such definitions prevents formal checks on the response, which may represent a risk for (1) API Servers who may unwillingly leak reserved data potentially exploitable by attachers, and (2)  API clients, which cannot effectively defend from code injection attampted by  API servers  \n\n",
+      "detailedDescription": "Specifications must always include response  definitions for all supported  status-codes. \nIt's a good practice to add a default response definitions for all status-codes that are supported but not explicitely defined.\n\nLack of such definitions prevents formal checks on the response, which may represent a risk for (1) API Servers who may unwillingly leak reserved data potentially exploitable by attachers, and (2)  API clients, which cannot effectively defend from code injection attampted by  API servers  \n\n",
+      "findingTypeId": "RDT015",
+      "id": "6598eac1-2718-4064-a0f6-4e87e8b940d3",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "delete",
+        "path": "/carts/{customerId}",
+        "specPath": "#/paths/~1carts~1{customerId}/delete/responses"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Specifications must always include response  definitions for all supported  status-codes. \nIt's a good practice to add a default response definitions for all status-codes that are supported but not explicitely defined.\n\nLack of such definitions prevents formal checks on the response, which may represent a risk for (1) API Servers who may unwillingly leak reserved data potentially exploitable by attachers, and (2)  API clients, which cannot effectively defend from code injection attampted by  API servers  \n\n",
+      "detailedDescription": "Specifications must always include response  definitions for all supported  status-codes. \nIt's a good practice to add a default response definitions for all status-codes that are supported but not explicitely defined.\n\nLack of such definitions prevents formal checks on the response, which may represent a risk for (1) API Servers who may unwillingly leak reserved data potentially exploitable by attachers, and (2)  API clients, which cannot effectively defend from code injection attampted by  API servers  \n\n",
+      "findingTypeId": "RDT015",
+      "id": "ac68939c-16ff-49b2-83ad-85d07a66292b",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "post",
+        "path": "/carts/{customerId}/items",
+        "specPath": "#/paths/~1carts~1{customerId}~1items/post/responses"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Specifications must always include response  definitions for all supported  status-codes. \nIt's a good practice to add a default response definitions for all status-codes that are supported but not explicitely defined.\n\nLack of such definitions prevents formal checks on the response, which may represent a risk for (1) API Servers who may unwillingly leak reserved data potentially exploitable by attachers, and (2)  API clients, which cannot effectively defend from code injection attampted by  API servers  \n\n",
+      "detailedDescription": "Specifications must always include response  definitions for all supported  status-codes. \nIt's a good practice to add a default response definitions for all status-codes that are supported but not explicitely defined.\n\nLack of such definitions prevents formal checks on the response, which may represent a risk for (1) API Servers who may unwillingly leak reserved data potentially exploitable by attachers, and (2)  API clients, which cannot effectively defend from code injection attampted by  API servers  \n\n",
+      "findingTypeId": "RDT015",
+      "id": "0303a49e-a4fa-4530-aca1-6514db0bf908",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "patch",
+        "path": "/carts/{customerId}/items",
+        "specPath": "#/paths/~1carts~1{customerId}~1items/patch/responses"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Specifications must always include response  definitions for all supported  status-codes. \nIt's a good practice to add a default response definitions for all status-codes that are supported but not explicitely defined.\n\nLack of such definitions prevents formal checks on the response, which may represent a risk for (1) API Servers who may unwillingly leak reserved data potentially exploitable by attachers, and (2)  API clients, which cannot effectively defend from code injection attampted by  API servers  \n\n",
+      "detailedDescription": "Specifications must always include response  definitions for all supported  status-codes. \nIt's a good practice to add a default response definitions for all status-codes that are supported but not explicitely defined.\n\nLack of such definitions prevents formal checks on the response, which may represent a risk for (1) API Servers who may unwillingly leak reserved data potentially exploitable by attachers, and (2)  API clients, which cannot effectively defend from code injection attampted by  API servers  \n\n",
+      "findingTypeId": "RDT015",
+      "id": "fc35cd0f-207c-4d70-afa7-13409a84d58a",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "delete",
+        "path": "/carts/{customerId}/items/{itemId}",
+        "specPath": "#/paths/~1carts~1{customerId}~1items~1{itemId}/delete/responses"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Specifications must always include response  definitions for all supported  status-codes. \nIt's a good practice to add a default response definitions for all status-codes that are supported but not explicitely defined.\n\nLack of such definitions prevents formal checks on the response, which may represent a risk for (1) API Servers who may unwillingly leak reserved data potentially exploitable by attachers, and (2)  API clients, which cannot effectively defend from code injection attampted by  API servers  \n\n",
+      "detailedDescription": "Specifications must always include response  definitions for all supported  status-codes. \nIt's a good practice to add a default response definitions for all status-codes that are supported but not explicitely defined.\n\nLack of such definitions prevents formal checks on the response, which may represent a risk for (1) API Servers who may unwillingly leak reserved data potentially exploitable by attachers, and (2)  API clients, which cannot effectively defend from code injection attampted by  API servers  \n\n",
+      "findingTypeId": "RDT015",
+      "id": "94ac5cdc-f848-4d74-8203-172aa33befd6",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "get",
+        "path": "/carts/{customerId}",
+        "specPath": "#/paths/~1carts~1{customerId}/get"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Spec analyzer detected that the spec does not define neither a global nor a operation specific security scheme. It is highly recommended that all API operations support a security scheme, which means supporting proper authentication and authorization. \nIn principle this can be achieved without a global security scheme, by specifying a security scheme for each API operation. However it is a good practice to have a global one instead of individual ones. This makes maintenance easy and avoids that new API operations are added without any security scheme association.",
+      "detailedDescription": "Spec analyzer detected that the spec does not define neither a global nor a operation specific security scheme. It is highly recommended that all API operations support a security scheme, which means supporting proper authentication and authorization. \nIn principle this can be achieved without a global security scheme, by specifying a security scheme for each API operation. However it is a good practice to have a global one instead of individual ones. This makes maintenance easy and avoids that new API operations are added without any security scheme association.",
+      "findingTypeId": "SAN001",
+      "id": "4e453cef-923c-4bbe-9585-753ea15adba8",
+      "severity": "critical",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "delete",
+        "path": "/carts/{customerId}",
+        "specPath": "#/paths/~1carts~1{customerId}/delete"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Spec analyzer detected that the spec does not define neither a global nor a operation specific security scheme. It is highly recommended that all API operations support a security scheme, which means supporting proper authentication and authorization. \nIn principle this can be achieved without a global security scheme, by specifying a security scheme for each API operation. However it is a good practice to have a global one instead of individual ones. This makes maintenance easy and avoids that new API operations are added without any security scheme association.",
+      "detailedDescription": "Spec analyzer detected that the spec does not define neither a global nor a operation specific security scheme. It is highly recommended that all API operations support a security scheme, which means supporting proper authentication and authorization. \nIn principle this can be achieved without a global security scheme, by specifying a security scheme for each API operation. However it is a good practice to have a global one instead of individual ones. This makes maintenance easy and avoids that new API operations are added without any security scheme association.",
+      "findingTypeId": "SAN001",
+      "id": "9fb5bab5-487f-4d60-bcfe-2e0a1bf0c3ad",
+      "severity": "critical",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "post",
+        "path": "/carts/{customerId}/items",
+        "specPath": "#/paths/~1carts~1{customerId}~1items/post"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Spec analyzer detected that the spec does not define neither a global nor a operation specific security scheme. It is highly recommended that all API operations support a security scheme, which means supporting proper authentication and authorization. \nIn principle this can be achieved without a global security scheme, by specifying a security scheme for each API operation. However it is a good practice to have a global one instead of individual ones. This makes maintenance easy and avoids that new API operations are added without any security scheme association.",
+      "detailedDescription": "Spec analyzer detected that the spec does not define neither a global nor a operation specific security scheme. It is highly recommended that all API operations support a security scheme, which means supporting proper authentication and authorization. \nIn principle this can be achieved without a global security scheme, by specifying a security scheme for each API operation. However it is a good practice to have a global one instead of individual ones. This makes maintenance easy and avoids that new API operations are added without any security scheme association.",
+      "findingTypeId": "SAN001",
+      "id": "ddce3d0d-7302-406e-ab8f-a54bcecddfb0",
+      "severity": "critical",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "patch",
+        "path": "/carts/{customerId}/items",
+        "specPath": "#/paths/~1carts~1{customerId}~1items/patch"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Spec analyzer detected that the spec does not define neither a global nor a operation specific security scheme. It is highly recommended that all API operations support a security scheme, which means supporting proper authentication and authorization. \nIn principle this can be achieved without a global security scheme, by specifying a security scheme for each API operation. However it is a good practice to have a global one instead of individual ones. This makes maintenance easy and avoids that new API operations are added without any security scheme association.",
+      "detailedDescription": "Spec analyzer detected that the spec does not define neither a global nor a operation specific security scheme. It is highly recommended that all API operations support a security scheme, which means supporting proper authentication and authorization. \nIn principle this can be achieved without a global security scheme, by specifying a security scheme for each API operation. However it is a good practice to have a global one instead of individual ones. This makes maintenance easy and avoids that new API operations are added without any security scheme association.",
+      "findingTypeId": "SAN001",
+      "id": "f2b78b85-a6f5-4453-b3b1-dedc0e0ab557",
+      "severity": "critical",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "delete",
+        "path": "/carts/{customerId}/items/{itemId}",
+        "specPath": "#/paths/~1carts~1{customerId}~1items~1{itemId}/delete"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Spec analyzer detected that the spec does not define neither a global nor a operation specific security scheme. It is highly recommended that all API operations support a security scheme, which means supporting proper authentication and authorization. \nIn principle this can be achieved without a global security scheme, by specifying a security scheme for each API operation. However it is a good practice to have a global one instead of individual ones. This makes maintenance easy and avoids that new API operations are added without any security scheme association.",
+      "detailedDescription": "Spec analyzer detected that the spec does not define neither a global nor a operation specific security scheme. It is highly recommended that all API operations support a security scheme, which means supporting proper authentication and authorization. \nIn principle this can be achieved without a global security scheme, by specifying a security scheme for each API operation. However it is a good practice to have a global one instead of individual ones. This makes maintenance easy and avoids that new API operations are added without any security scheme association.",
+      "findingTypeId": "SAN001",
+      "id": "ac8547fc-3616-49eb-98ba-a01ba7285cc2",
+      "severity": "critical",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "delete",
+        "path": "/carts/{customerId}",
+        "property": "description",
+        "specPath": "#/paths/~1carts~1{customerId}/delete/responses/202"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "The spec does not include a mandatory property.\nFormally invalid spec may cause issue with automatic code generation potentially used by client and servers, triggering in turn unexpected and insecure behavior. \n",
+      "detailedDescription": "The spec does not include a mandatory property.\nFormally invalid spec may cause issue with automatic code generation potentially used by client and servers, triggering in turn unexpected and insecure behavior. \n",
+      "findingTypeId": "FBP001",
+      "id": "107a720b-b8e3-48c7-a409-c9e9c07cae83",
+      "severity": "info",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "delete",
+        "path": "/carts/{customerId}",
+        "specPath": "#/paths/~1carts~1{customerId}/delete/responses/202"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "The spec defines a response that is supposed to contain a body, however no schema is associated to such response. This makes the spec invalid.\nFormally invalid spec may cause issue with automatic code generation potentially used by client and servers, triggering in turn unexpected and insecure behavior. ",
+      "detailedDescription": "The spec defines a response that is supposed to contain a body, however no schema is associated to such response. This makes the spec invalid.\nFormally invalid spec may cause issue with automatic code generation potentially used by client and servers, triggering in turn unexpected and insecure behavior. ",
+      "findingTypeId": "TDT011",
+      "id": "d9af680c-b3ef-44f0-b87b-e233d7afe474",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "post",
+        "path": "/carts/{customerId}/items",
+        "property": "description",
+        "specPath": "#/paths/~1carts~1{customerId}~1items/post/responses/201"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "The spec does not include a mandatory property.\nFormally invalid spec may cause issue with automatic code generation potentially used by client and servers, triggering in turn unexpected and insecure behavior. \n",
+      "detailedDescription": "The spec does not include a mandatory property.\nFormally invalid spec may cause issue with automatic code generation potentially used by client and servers, triggering in turn unexpected and insecure behavior. \n",
+      "findingTypeId": "FBP001",
+      "id": "c53c25f4-2892-496d-8ed8-16cf275e2afa",
+      "severity": "info",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "patch",
+        "path": "/carts/{customerId}/items",
+        "property": "description",
+        "specPath": "#/paths/~1carts~1{customerId}~1items/patch/responses/200"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "The spec does not include a mandatory property.\nFormally invalid spec may cause issue with automatic code generation potentially used by client and servers, triggering in turn unexpected and insecure behavior. \n",
+      "detailedDescription": "The spec does not include a mandatory property.\nFormally invalid spec may cause issue with automatic code generation potentially used by client and servers, triggering in turn unexpected and insecure behavior. \n",
+      "findingTypeId": "FBP001",
+      "id": "30843417-2359-4007-8845-fb574f920207",
+      "severity": "info",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "patch",
+        "path": "/carts/{customerId}/items",
+        "specPath": "#/paths/~1carts~1{customerId}~1items/patch/responses/200"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "The spec defines a response that is supposed to contain a body, however no schema is associated to such response. This makes the spec invalid.\nFormally invalid spec may cause issue with automatic code generation potentially used by client and servers, triggering in turn unexpected and insecure behavior. ",
+      "detailedDescription": "The spec defines a response that is supposed to contain a body, however no schema is associated to such response. This makes the spec invalid.\nFormally invalid spec may cause issue with automatic code generation potentially used by client and servers, triggering in turn unexpected and insecure behavior. ",
+      "findingTypeId": "TDT011",
+      "id": "425117ec-a424-4771-9fb7-719f55e1ebc0",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "delete",
+        "path": "/carts/{customerId}/items/{itemId}",
+        "specPath": "#/paths/~1carts~1{customerId}~1items~1{itemId}/delete/responses/202"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "The spec defines a response that is supposed to contain a body, however no schema is associated to such response. This makes the spec invalid.\nFormally invalid spec may cause issue with automatic code generation potentially used by client and servers, triggering in turn unexpected and insecure behavior. ",
+      "detailedDescription": "The spec defines a response that is supposed to contain a body, however no schema is associated to such response. This makes the spec invalid.\nFormally invalid spec may cause issue with automatic code generation potentially used by client and servers, triggering in turn unexpected and insecure behavior. ",
+      "findingTypeId": "TDT011",
+      "id": "25ab2799-6dc8-477f-8203-ae25418886c6",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "specPath": "#"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Spec analyzer detected that the spec does not define a global security scheme. It is highly recommended that all API operations support a security scheme, which means supporting proper authentication and authorization. \nIn principle this can be achieved without a global security scheme, by specifying a security scheme for each API operation. However it is a good practice to have a global one instead of individual ones. This makes maintenance easy and avoids that new API operations are added without any security scheme association.",
+      "detailedDescription": "Spec analyzer detected that the spec does not define a global security scheme. It is highly recommended that all API operations support a security scheme, which means supporting proper authentication and authorization. \nIn principle this can be achieved without a global security scheme, by specifying a security scheme for each API operation. However it is a good practice to have a global one instead of individual ones. This makes maintenance easy and avoids that new API operations are added without any security scheme association.",
+      "findingTypeId": "SAN029",
+      "id": "15527024-0325-48b9-b81c-86b79accf915",
+      "severity": "low",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "specPath": "#/schemes"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "It is highly recommended to use encrypted transport, i.e. HTTPS,  for all API operations. Unencrypted transport allows for anyone able to watch traffic to access all data being transported. Such access may cause sensitive data leakage and moreover gives the ability  to gain information that could be exploited to attack API clients and servers.\n\n",
+      "detailedDescription": "It is highly recommended to use encrypted transport, i.e. HTTPS,  for all API operations. Unencrypted transport allows for anyone able to watch traffic to access all data being transported. Such access may cause sensitive data leakage and moreover gives the ability  to gain information that could be exploited to attack API clients and servers.\n\n",
+      "findingTypeId": "STR001",
+      "id": "9bc8d9d0-488f-4b2c-a3a1-80b19f99c2cc",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "property": "version",
+        "specPath": "#/info"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "The spec does not include a mandatory property.\nFormally invalid spec may cause issue with automatic code generation potentially used by client and servers, triggering in turn unexpected and insecure behavior. \n",
+      "detailedDescription": "The spec does not include a mandatory property.\nFormally invalid spec may cause issue with automatic code generation potentially used by client and servers, triggering in turn unexpected and insecure behavior. \n",
+      "findingTypeId": "FBP001",
+      "id": "bdac6d6d-3ce6-486c-8563-6f1dedd04b18",
+      "severity": "info",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "specPath": "#/definitions/CartItem/properties/quantity/type"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Spec analyzer detected that the definition of a numeric attribute carried in an API operation does not specify the format.\nAll attributes carried over API operations should be specified as precisely as possible, to allow API clients and servers to perform accurate attribue validation.\nLoosely specified attributes prevent rigorous automatic validation checks on requests and responses, allowing malicious clients (or servers) to attempt triggering unexpected behaviors on servers (or client) which could be potentially exploited for various attacks.",
+      "detailedDescription": "Spec analyzer detected that the definition of a numeric attribute carried in an API operation does not specify the format.\nAll attributes carried over API operations should be specified as precisely as possible, to allow API clients and servers to perform accurate attribue validation.\nLoosely specified attributes prevent rigorous automatic validation checks on requests and responses, allowing malicious clients (or servers) to attempt triggering unexpected behaviors on servers (or client) which could be potentially exploited for various attacks.",
+      "findingTypeId": "TDT003",
+      "id": "987fc795-eddc-44e0-a306-a07ead9ac0f8",
+      "severity": "low",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "specPath": "#/definitions/CartItem/properties/unitPrice/type"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Spec analyzer detected that the definition of a numeric attribute carried in an API operation does not specify the format.\nAll attributes carried over API operations should be specified as precisely as possible, to allow API clients and servers to perform accurate attribue validation.\nLoosely specified attributes prevent rigorous automatic validation checks on requests and responses, allowing malicious clients (or servers) to attempt triggering unexpected behaviors on servers (or client) which could be potentially exploited for various attacks.",
+      "detailedDescription": "Spec analyzer detected that the definition of a numeric attribute carried in an API operation does not specify the format.\nAll attributes carried over API operations should be specified as precisely as possible, to allow API clients and servers to perform accurate attribue validation.\nLoosely specified attributes prevent rigorous automatic validation checks on requests and responses, allowing malicious clients (or servers) to attempt triggering unexpected behaviors on servers (or client) which could be potentially exploited for various attacks.",
+      "findingTypeId": "TDT003",
+      "id": "59335bb4-0703-446f-bc0d-0339b1760cad",
+      "severity": "low",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "specPath": "#/definitions/CartItem/properties/quantity/type"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Spec analyzer detected that the definition of a numeric attribute carried in an API operation does not specify the maximum value.\nAll attributes carried over API operations should be specified as precisely as possible, to allow API clients and servers to perform accurate attribue validation.\nLoosely specified attributes prevent rigorous automatic validation checks on requests and responses, allowing malicious clients (or servers) to attempt triggering unexpected behaviors on servers (or client) which could be potentially exploited for various attacks.",
+      "detailedDescription": "Spec analyzer detected that the definition of a numeric attribute carried in an API operation does not specify the maximum value.\nAll attributes carried over API operations should be specified as precisely as possible, to allow API clients and servers to perform accurate attribue validation.\nLoosely specified attributes prevent rigorous automatic validation checks on requests and responses, allowing malicious clients (or servers) to attempt triggering unexpected behaviors on servers (or client) which could be potentially exploited for various attacks.",
+      "findingTypeId": "TDT004",
+      "id": "85cc7c9a-5508-4771-b718-6c3121a7f99d",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "specPath": "#/definitions/CartItem/properties/unitPrice/type"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Spec analyzer detected that the definition of a numeric attribute carried in an API operation does not specify the maximum value.\nAll attributes carried over API operations should be specified as precisely as possible, to allow API clients and servers to perform accurate attribue validation.\nLoosely specified attributes prevent rigorous automatic validation checks on requests and responses, allowing malicious clients (or servers) to attempt triggering unexpected behaviors on servers (or client) which could be potentially exploited for various attacks.",
+      "detailedDescription": "Spec analyzer detected that the definition of a numeric attribute carried in an API operation does not specify the maximum value.\nAll attributes carried over API operations should be specified as precisely as possible, to allow API clients and servers to perform accurate attribue validation.\nLoosely specified attributes prevent rigorous automatic validation checks on requests and responses, allowing malicious clients (or servers) to attempt triggering unexpected behaviors on servers (or client) which could be potentially exploited for various attacks.",
+      "findingTypeId": "TDT004",
+      "id": "51c727b2-8281-4f3d-a909-095e2d92b8bb",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "specPath": "#/definitions/CartItem/properties/quantity/type"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Spec analyzer detected that the definition of a numeric attribute carried in an API operation does not specify the minumum value.\nAll attributes carried over API operations should be specified as precisely as possible, to allow API clients and servers to perform accurate attribue validation.\nLoosely specified attributes prevent rigorous automatic validation checks on requests and responses, allowing malicious clients (or servers) to attempt triggering unexpected behaviors on servers (or client) which could be potentially exploited for various attacks.",
+      "detailedDescription": "Spec analyzer detected that the definition of a numeric attribute carried in an API operation does not specify the minumum value.\nAll attributes carried over API operations should be specified as precisely as possible, to allow API clients and servers to perform accurate attribue validation.\nLoosely specified attributes prevent rigorous automatic validation checks on requests and responses, allowing malicious clients (or servers) to attempt triggering unexpected behaviors on servers (or client) which could be potentially exploited for various attacks.",
+      "findingTypeId": "TDT005",
+      "id": "9a060239-beca-41a9-9eb8-fef4bfbcd1d4",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "specPath": "#/definitions/CartItem/properties/unitPrice/type"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Spec analyzer detected that the definition of a numeric attribute carried in an API operation does not specify the minumum value.\nAll attributes carried over API operations should be specified as precisely as possible, to allow API clients and servers to perform accurate attribue validation.\nLoosely specified attributes prevent rigorous automatic validation checks on requests and responses, allowing malicious clients (or servers) to attempt triggering unexpected behaviors on servers (or client) which could be potentially exploited for various attacks.",
+      "detailedDescription": "Spec analyzer detected that the definition of a numeric attribute carried in an API operation does not specify the minumum value.\nAll attributes carried over API operations should be specified as precisely as possible, to allow API clients and servers to perform accurate attribue validation.\nLoosely specified attributes prevent rigorous automatic validation checks on requests and responses, allowing malicious clients (or servers) to attempt triggering unexpected behaviors on servers (or client) which could be potentially exploited for various attacks.",
+      "findingTypeId": "TDT005",
+      "id": "cc69971b-ea03-4478-b498-d96888581835",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "specPath": "#/definitions/Getcartresponse/properties/customerId/type"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Spec analyzer detected that the definition of an array  attribute carried in an API operation does not specify the maximum length.\nThis prevents client and server to have an upperbound on the array lenght they can expect, which make them expose to possible buffer overflow attacks. ",
+      "detailedDescription": "Spec analyzer detected that the definition of an array  attribute carried in an API operation does not specify the maximum length.\nThis prevents client and server to have an upperbound on the array lenght they can expect, which make them expose to possible buffer overflow attacks. ",
+      "findingTypeId": "TDT007",
+      "id": "8a7beba3-f576-401d-9a18-882e6d1a7908",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "specPath": "#/definitions/CartItem/properties/itemId/type"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Spec analyzer detected that the definition of an array  attribute carried in an API operation does not specify the maximum length.\nThis prevents client and server to have an upperbound on the array lenght they can expect, which make them expose to possible buffer overflow attacks. ",
+      "detailedDescription": "Spec analyzer detected that the definition of an array  attribute carried in an API operation does not specify the maximum length.\nThis prevents client and server to have an upperbound on the array lenght they can expect, which make them expose to possible buffer overflow attacks. ",
+      "findingTypeId": "TDT007",
+      "id": "fcd37931-7f7f-4160-9c63-1cbafc842655",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "specPath": "#/definitions/Getcartresponse/properties/customerId/type"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Spec analyzer detected that the definition of a string attribute carried in an API operation does not specify the pattern.\nAll attributes carried over API operations should be specified as precisely as possible, to allow API clients and servers to perform accurate attribue validation.\nLoosely specified attributes prevent rigorous automatic validation checks on requests and responses, allowing malicious clients (or servers) to attempt triggering unexpected behaviors on servers (or client) which could be potentially exploited for various attacks.",
+      "detailedDescription": "Spec analyzer detected that the definition of a string attribute carried in an API operation does not specify the pattern.\nAll attributes carried over API operations should be specified as precisely as possible, to allow API clients and servers to perform accurate attribue validation.\nLoosely specified attributes prevent rigorous automatic validation checks on requests and responses, allowing malicious clients (or servers) to attempt triggering unexpected behaviors on servers (or client) which could be potentially exploited for various attacks.",
+      "findingTypeId": "TDT008",
+      "id": "bc3f5ffc-6b2b-408c-a0ad-a8b123cab40f",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "specPath": "#/definitions/CartItem/properties/itemId/type"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Spec analyzer detected that the definition of a string attribute carried in an API operation does not specify the pattern.\nAll attributes carried over API operations should be specified as precisely as possible, to allow API clients and servers to perform accurate attribue validation.\nLoosely specified attributes prevent rigorous automatic validation checks on requests and responses, allowing malicious clients (or servers) to attempt triggering unexpected behaviors on servers (or client) which could be potentially exploited for various attacks.",
+      "detailedDescription": "Spec analyzer detected that the definition of a string attribute carried in an API operation does not specify the pattern.\nAll attributes carried over API operations should be specified as precisely as possible, to allow API clients and servers to perform accurate attribue validation.\nLoosely specified attributes prevent rigorous automatic validation checks on requests and responses, allowing malicious clients (or servers) to attempt triggering unexpected behaviors on servers (or client) which could be potentially exploited for various attacks.",
+      "findingTypeId": "TDT008",
+      "id": "31203d74-bd28-4f47-8726-71154544388f",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "get",
+        "path": "/carts/{customerId}",
+        "specPath": "#/paths/~1carts~1{customerId}/get/parameters/0/type"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Spec analyzer detected that the definition of an array  attribute carried in an API operation does not specify the maximum length.\nThis prevents client and server to have an upperbound on the array lenght they can expect, which make them expose to possible buffer overflow attacks. ",
+      "detailedDescription": "Spec analyzer detected that the definition of an array  attribute carried in an API operation does not specify the maximum length.\nThis prevents client and server to have an upperbound on the array lenght they can expect, which make them expose to possible buffer overflow attacks. ",
+      "findingTypeId": "TDT007",
+      "id": "ed26203d-8221-4ad3-846a-9626b2b2450e",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "get",
+        "path": "/carts/{customerId}",
+        "specPath": "#/paths/~1carts~1{customerId}/get/parameters/0/type"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Spec analyzer detected that the definition of a string attribute carried in an API operation does not specify the pattern.\nAll attributes carried over API operations should be specified as precisely as possible, to allow API clients and servers to perform accurate attribue validation.\nLoosely specified attributes prevent rigorous automatic validation checks on requests and responses, allowing malicious clients (or servers) to attempt triggering unexpected behaviors on servers (or client) which could be potentially exploited for various attacks.",
+      "detailedDescription": "Spec analyzer detected that the definition of a string attribute carried in an API operation does not specify the pattern.\nAll attributes carried over API operations should be specified as precisely as possible, to allow API clients and servers to perform accurate attribue validation.\nLoosely specified attributes prevent rigorous automatic validation checks on requests and responses, allowing malicious clients (or servers) to attempt triggering unexpected behaviors on servers (or client) which could be potentially exploited for various attacks.",
+      "findingTypeId": "TDT008",
+      "id": "ec41c664-9054-49e5-b036-7513b59574e2",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "delete",
+        "path": "/carts/{customerId}",
+        "specPath": "#/paths/~1carts~1{customerId}/delete/parameters/0/type"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Spec analyzer detected that the definition of an array  attribute carried in an API operation does not specify the maximum length.\nThis prevents client and server to have an upperbound on the array lenght they can expect, which make them expose to possible buffer overflow attacks. ",
+      "detailedDescription": "Spec analyzer detected that the definition of an array  attribute carried in an API operation does not specify the maximum length.\nThis prevents client and server to have an upperbound on the array lenght they can expect, which make them expose to possible buffer overflow attacks. ",
+      "findingTypeId": "TDT007",
+      "id": "bdf562f4-6cc9-41da-a259-b980e823db0b",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "delete",
+        "path": "/carts/{customerId}",
+        "specPath": "#/paths/~1carts~1{customerId}/delete/parameters/0/type"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Spec analyzer detected that the definition of a string attribute carried in an API operation does not specify the pattern.\nAll attributes carried over API operations should be specified as precisely as possible, to allow API clients and servers to perform accurate attribue validation.\nLoosely specified attributes prevent rigorous automatic validation checks on requests and responses, allowing malicious clients (or servers) to attempt triggering unexpected behaviors on servers (or client) which could be potentially exploited for various attacks.",
+      "detailedDescription": "Spec analyzer detected that the definition of a string attribute carried in an API operation does not specify the pattern.\nAll attributes carried over API operations should be specified as precisely as possible, to allow API clients and servers to perform accurate attribue validation.\nLoosely specified attributes prevent rigorous automatic validation checks on requests and responses, allowing malicious clients (or servers) to attempt triggering unexpected behaviors on servers (or client) which could be potentially exploited for various attacks.",
+      "findingTypeId": "TDT008",
+      "id": "fe6f3f4e-5969-4198-b6d3-f8380243a804",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "post",
+        "path": "/carts/{customerId}/items",
+        "specPath": "#/paths/~1carts~1{customerId}~1items/post/parameters/0/type"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Spec analyzer detected that the definition of an array  attribute carried in an API operation does not specify the maximum length.\nThis prevents client and server to have an upperbound on the array lenght they can expect, which make them expose to possible buffer overflow attacks. ",
+      "detailedDescription": "Spec analyzer detected that the definition of an array  attribute carried in an API operation does not specify the maximum length.\nThis prevents client and server to have an upperbound on the array lenght they can expect, which make them expose to possible buffer overflow attacks. ",
+      "findingTypeId": "TDT007",
+      "id": "f252c77f-b4f2-4327-acba-2c376a9412d7",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "post",
+        "path": "/carts/{customerId}/items",
+        "specPath": "#/paths/~1carts~1{customerId}~1items/post/parameters/0/type"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Spec analyzer detected that the definition of a string attribute carried in an API operation does not specify the pattern.\nAll attributes carried over API operations should be specified as precisely as possible, to allow API clients and servers to perform accurate attribue validation.\nLoosely specified attributes prevent rigorous automatic validation checks on requests and responses, allowing malicious clients (or servers) to attempt triggering unexpected behaviors on servers (or client) which could be potentially exploited for various attacks.",
+      "detailedDescription": "Spec analyzer detected that the definition of a string attribute carried in an API operation does not specify the pattern.\nAll attributes carried over API operations should be specified as precisely as possible, to allow API clients and servers to perform accurate attribue validation.\nLoosely specified attributes prevent rigorous automatic validation checks on requests and responses, allowing malicious clients (or servers) to attempt triggering unexpected behaviors on servers (or client) which could be potentially exploited for various attacks.",
+      "findingTypeId": "TDT008",
+      "id": "7875f956-dad4-44f4-adfb-6883c3f1a5be",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "patch",
+        "path": "/carts/{customerId}/items",
+        "specPath": "#/paths/~1carts~1{customerId}~1items/patch/parameters/0/type"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Spec analyzer detected that the definition of an array  attribute carried in an API operation does not specify the maximum length.\nThis prevents client and server to have an upperbound on the array lenght they can expect, which make them expose to possible buffer overflow attacks. ",
+      "detailedDescription": "Spec analyzer detected that the definition of an array  attribute carried in an API operation does not specify the maximum length.\nThis prevents client and server to have an upperbound on the array lenght they can expect, which make them expose to possible buffer overflow attacks. ",
+      "findingTypeId": "TDT007",
+      "id": "300d26a8-cc1d-4054-97b8-018259c9df18",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "patch",
+        "path": "/carts/{customerId}/items",
+        "specPath": "#/paths/~1carts~1{customerId}~1items/patch/parameters/0/type"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Spec analyzer detected that the definition of a string attribute carried in an API operation does not specify the pattern.\nAll attributes carried over API operations should be specified as precisely as possible, to allow API clients and servers to perform accurate attribue validation.\nLoosely specified attributes prevent rigorous automatic validation checks on requests and responses, allowing malicious clients (or servers) to attempt triggering unexpected behaviors on servers (or client) which could be potentially exploited for various attacks.",
+      "detailedDescription": "Spec analyzer detected that the definition of a string attribute carried in an API operation does not specify the pattern.\nAll attributes carried over API operations should be specified as precisely as possible, to allow API clients and servers to perform accurate attribue validation.\nLoosely specified attributes prevent rigorous automatic validation checks on requests and responses, allowing malicious clients (or servers) to attempt triggering unexpected behaviors on servers (or client) which could be potentially exploited for various attacks.",
+      "findingTypeId": "TDT008",
+      "id": "be67da76-3a2f-4a77-a38a-01c1f72735f1",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "patch",
+        "path": "/carts/{customerId}/items",
+        "specPath": "#/paths/~1carts~1{customerId}~1items/patch/parameters/1/schema"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Spec analyzer has detected an schema with no properties, which means that any payload is considered valid.\nAll attributes carried over API operations should be specified as precisely as possible, to allow API clients and servers to perform accurate attribue validation.\nLoosely specified attributes prevent rigorous automatic validation checks on requests and responses, allowing malicious clients (or servers) to attempt triggering unexpected behaviors on servers (or client) which could be potentially exploited for various attacks.\n",
+      "detailedDescription": "Spec analyzer has detected an schema with no properties, which means that any payload is considered valid.\nAll attributes carried over API operations should be specified as precisely as possible, to allow API clients and servers to perform accurate attribue validation.\nLoosely specified attributes prevent rigorous automatic validation checks on requests and responses, allowing malicious clients (or servers) to attempt triggering unexpected behaviors on servers (or client) which could be potentially exploited for various attacks.\n",
+      "findingTypeId": "TDT010",
+      "id": "e5ea4839-e505-44e0-b44a-af2766593c46",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "delete",
+        "path": "/carts/{customerId}/items/{itemId}",
+        "specPath": "#/paths/~1carts~1{customerId}~1items~1{itemId}/delete/parameters/0/type"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Spec analyzer detected that the definition of an array  attribute carried in an API operation does not specify the maximum length.\nThis prevents client and server to have an upperbound on the array lenght they can expect, which make them expose to possible buffer overflow attacks. ",
+      "detailedDescription": "Spec analyzer detected that the definition of an array  attribute carried in an API operation does not specify the maximum length.\nThis prevents client and server to have an upperbound on the array lenght they can expect, which make them expose to possible buffer overflow attacks. ",
+      "findingTypeId": "TDT007",
+      "id": "75fec2b5-6aa1-4bdb-a681-c2c5dcd0bfe9",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "delete",
+        "path": "/carts/{customerId}/items/{itemId}",
+        "specPath": "#/paths/~1carts~1{customerId}~1items~1{itemId}/delete/parameters/1/type"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Spec analyzer detected that the definition of an array  attribute carried in an API operation does not specify the maximum length.\nThis prevents client and server to have an upperbound on the array lenght they can expect, which make them expose to possible buffer overflow attacks. ",
+      "detailedDescription": "Spec analyzer detected that the definition of an array  attribute carried in an API operation does not specify the maximum length.\nThis prevents client and server to have an upperbound on the array lenght they can expect, which make them expose to possible buffer overflow attacks. ",
+      "findingTypeId": "TDT007",
+      "id": "3913a347-2867-4b99-9f2d-82b659b8d984",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "delete",
+        "path": "/carts/{customerId}/items/{itemId}",
+        "specPath": "#/paths/~1carts~1{customerId}~1items~1{itemId}/delete/parameters/0/type"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Spec analyzer detected that the definition of a string attribute carried in an API operation does not specify the pattern.\nAll attributes carried over API operations should be specified as precisely as possible, to allow API clients and servers to perform accurate attribue validation.\nLoosely specified attributes prevent rigorous automatic validation checks on requests and responses, allowing malicious clients (or servers) to attempt triggering unexpected behaviors on servers (or client) which could be potentially exploited for various attacks.",
+      "detailedDescription": "Spec analyzer detected that the definition of a string attribute carried in an API operation does not specify the pattern.\nAll attributes carried over API operations should be specified as precisely as possible, to allow API clients and servers to perform accurate attribue validation.\nLoosely specified attributes prevent rigorous automatic validation checks on requests and responses, allowing malicious clients (or servers) to attempt triggering unexpected behaviors on servers (or client) which could be potentially exploited for various attacks.",
+      "findingTypeId": "TDT008",
+      "id": "7c3a9683-0bb3-4723-b39c-b5110197da08",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "delete",
+        "path": "/carts/{customerId}/items/{itemId}",
+        "specPath": "#/paths/~1carts~1{customerId}~1items~1{itemId}/delete/parameters/1/type"
+      },
+      "categories": [
+        "api-specification"
+      ],
+      "createdAt": "2023-11-21T18:13:00.509728Z",
+      "description": "Spec analyzer detected that the definition of a string attribute carried in an API operation does not specify the pattern.\nAll attributes carried over API operations should be specified as precisely as possible, to allow API clients and servers to perform accurate attribue validation.\nLoosely specified attributes prevent rigorous automatic validation checks on requests and responses, allowing malicious clients (or servers) to attempt triggering unexpected behaviors on servers (or client) which could be potentially exploited for various attacks.",
+      "detailedDescription": "Spec analyzer detected that the definition of a string attribute carried in an API operation does not specify the pattern.\nAll attributes carried over API operations should be specified as precisely as possible, to allow API clients and servers to perform accurate attribue validation.\nLoosely specified attributes prevent rigorous automatic validation checks on requests and responses, allowing malicious clients (or servers) to attempt triggering unexpected behaviors on servers (or client) which could be potentially exploited for various attacks.",
+      "findingTypeId": "TDT008",
+      "id": "ff047a58-624f-4ceb-99de-7ce6f05af3f5",
+      "severity": "medium",
+      "source": "oas-analyzer"
+    }
+  ],
+  "jobType": "OasScoringJob",
+  "status": "Completed",
+  "updatedAt": "2023-11-21T20:20:53.804488Z"
+}

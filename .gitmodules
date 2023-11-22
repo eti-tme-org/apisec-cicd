@@ -1,0 +1,6 @@
+[submodule "sock-shop-specs"]
+	path = sock-shop-specs
+	url = https://github.com/eti-tme-org/sock-shop-specs
+[submodule "sock-shop"]
+	path = sock-shop
+	url = https://github.com/eti-tme-org/sock-shop

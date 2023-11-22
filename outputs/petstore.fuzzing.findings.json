@@ -1,0 +1,41 @@
+{
+  "createdAt": "2023-11-21T20:25:58.404841Z",
+  "id": "0cf95f01-eea6-4cb9-ab9f-6070a84614ae",
+  "items": [
+    {
+      "additionalInfo": {
+        "method": "get",
+        "path": "/user/{username}"
+      },
+      "categories": [
+        "application"
+      ],
+      "createdAt": "2023-11-21T18:28:17.488997Z",
+      "description": "The fuzzer retrieved meaningful information without being authenticated against an endpoint that required authentication according to the specifications.",
+      "detailedDescription": "The fuzzer retrieved meaningful information without being authenticated against an endpoint that required authentication according to the specifications.",
+      "findingTypeId": "AUTH_ISSUE",
+      "id": "6aa1001c-1cd1-405f-b90b-5fbed255ae77",
+      "severity": "high",
+      "source": "api-fuzzer"
+    },
+    {
+      "additionalInfo": {
+        "method": "put",
+        "path": "/user/{username}"
+      },
+      "categories": [
+        "application"
+      ],
+      "createdAt": "2023-11-21T18:28:17.488997Z",
+      "description": "The fuzzer retrieved meaningful information without being authenticated against an endpoint that required authentication according to the specifications.",
+      "detailedDescription": "The fuzzer retrieved meaningful information without being authenticated against an endpoint that required authentication according to the specifications.",
+      "findingTypeId": "AUTH_ISSUE",
+      "id": "d81ee716-7f9b-4e2d-bfec-f5a38ce06d44",
+      "severity": "high",
+      "source": "api-fuzzer"
+    }
+  ],
+  "jobType": "FuzzingJob",
+  "status": "Completed",
+  "updatedAt": "2023-11-21T20:27:07.385659Z"
+}

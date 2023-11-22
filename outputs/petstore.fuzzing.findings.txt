@@ -1,0 +1,3 @@
+ID                                    SEVERITY  CATEGORIES   FINDING TYPE ID  SOURCE     
+6aa1001c-1cd1-405f-b90b-5fbed255ae77  high      application  AUTH_ISSUE       api-fuzzer  
+d81ee716-7f9b-4e2d-bfec-f5a38ce06d44  high      application  AUTH_ISSUE       api-fuzzer  

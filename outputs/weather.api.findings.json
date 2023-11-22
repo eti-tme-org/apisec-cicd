@@ -1,0 +1,95 @@
+{
+  "createdAt": "2023-11-21T20:23:00.748787Z",
+  "id": "ea9c9f4e-1d94-49ab-80bc-d0cf71c708d4",
+  "items": [
+    {
+      "additionalInfo": {
+        "Asset": "23.51.52.17,23.220.188.13",
+        "Ports": [
+          80,
+          443
+        ]
+      },
+      "categories": [
+        "network"
+      ],
+      "createdAt": "2023-11-21T18:20:34.302907Z",
+      "description": "Higher number of open ports increases risks of vulnerability.",
+      "detailedDescription": "Higher number of open ports increases risks of vulnerability.",
+      "findingTypeId": "PORTS",
+      "id": "2d620a3c-ce8c-49d2-bf00-84dc4e4c9aac",
+      "severity": "info",
+      "source": "shodan"
+    },
+    {
+      "additionalInfo": {
+        "Asset": "23.51.52.17:443",
+        "Description": "At least one security header is required"
+      },
+      "categories": [
+        "application"
+      ],
+      "createdAt": "2023-11-21T18:20:34.302907Z",
+      "description": "One or more required security headers are not set. These headers are important for preventing attacks and must be checked for use and correct configuration.",
+      "detailedDescription": "One or more required security headers are not set. These headers are important for preventing attacks and must be checked for use and correct configuration.",
+      "findingTypeId": "MISSING_SECURITY_HEADER",
+      "id": "7557b575-8ddf-433b-ac6e-858172767933",
+      "severity": "low",
+      "source": "shodan"
+    },
+    {
+      "additionalInfo": {
+        "Asset": "23.51.52.17:80,23.51.56.17:80,23.220.188.13:80",
+        "Module": "http",
+        "Description": "Secured version shall be used"
+      },
+      "categories": [
+        "network"
+      ],
+      "createdAt": "2023-11-21T18:20:34.302907Z",
+      "description": "An unsecure service was observed.",
+      "detailedDescription": "An unsecure service was observed.",
+      "findingTypeId": "SECURITY_CONFIGURATION",
+      "id": "a9995c82-6408-4ab3-9d6c-6d6bb2a20bd2",
+      "severity": "low",
+      "source": "shodan"
+    },
+    {
+      "additionalInfo": {
+        "Asset": "23.51.56.17",
+        "Ports": [
+          80
+        ]
+      },
+      "categories": [
+        "network"
+      ],
+      "createdAt": "2023-11-21T18:20:34.302907Z",
+      "description": "Higher number of open ports increases risks of vulnerability.",
+      "detailedDescription": "Higher number of open ports increases risks of vulnerability.",
+      "findingTypeId": "PORTS",
+      "id": "4deac1c2-4e48-4928-a125-90d9cd6e49e9",
+      "severity": "info",
+      "source": "shodan"
+    },
+    {
+      "additionalInfo": {
+        "Asset": "23.220.188.13:443",
+        "Description": "At least one security header is required"
+      },
+      "categories": [
+        "application"
+      ],
+      "createdAt": "2023-11-21T18:20:34.302907Z",
+      "description": "One or more required security headers are not set. These headers are important for preventing attacks and must be checked for use and correct configuration.",
+      "detailedDescription": "One or more required security headers are not set. These headers are important for preventing attacks and must be checked for use and correct configuration.",
+      "findingTypeId": "MISSING_SECURITY_HEADER",
+      "id": "36a3dc92-1e4c-4897-ad44-6d19a7c14841",
+      "severity": "low",
+      "source": "shodan"
+    }
+  ],
+  "jobType": "ThirdPartyApiScoringJob",
+  "status": "Completed",
+  "updatedAt": "2023-11-21T20:23:00.751946Z"
+}
