@@ -62,7 +62,11 @@ There are two bash scripts I wrote to make this super easy to use.  Their full d
 - ./run_job.sh oas json
 - ./run_job.sh 3rdparty json
 - ./run_job.sh fuzzer json
-  
+
+### Example Outputs
+
+You can see example outputs stored in this repo in the [outputs](../outputs) directory.
+
 ## Bash Script Descriptions
 
 - There is a **get_job.sh** script for fetching previously cached API security jobs (best for conferences, and quick review of outputs).
