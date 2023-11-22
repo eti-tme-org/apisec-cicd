@@ -147,6 +147,6 @@ Get JSON output of findings.  Note: argument order is important.  Also, the resu
 If for whatever reason, you can't access the Panoptica SaaS or network connectivity is otherwise unavailable, the following output files are available:
 
 - [Screen Capture of Demo](outputs/apisec.cicd.cast): Use [Asciinema](https://asciinema.org) to play the recording.
-- carts API OAS Analysis: [summary][outputs/carts.oas.findings.txt] and [JSON details](outputs/carts.oas.findings.json)
-- api.weather.gov 3rd Party Assessment: [summary][outputs/weather.api.findings.txt] and [JSON details](outputs/weather.api.findings.json)
-- petstore API Fuzzing: [summary][outputs/petstore.fuzzing.findings.txt] and [JSON details](outputs/petstore.fuzzing.findings.json)
+- carts API OAS Analysis: [summary](outputs/carts.oas.findings.txt) and [JSON details](outputs/carts.oas.findings.json)
+- api.weather.gov 3rd Party Assessment: [summary](outputs/weather.api.findings.txt) and [JSON details](outputs/weather.api.findings.json)
+- petstore API Fuzzing: [summary](outputs/petstore.fuzzing.findings.txt) and [JSON details](outputs/petstore.fuzzing.findings.json)
