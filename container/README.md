@@ -2,7 +2,7 @@
 
 ## Instructions
 
-Download (or copy from the parent) the API Security CICD CLI binary from the Panoptica [API Security](https://console.panoptica.app/settings/api_sec) Settings page.  You'll need the Linux version but the platform (AppleSilicon, AMD64, etc.) depends on that platform your container will run on.
+Download (or copy from the parent) the API Security CICD CLI binary from the Panoptica [API Security](https://console.panoptica.app/settings/api_sec) Settings page.  You'll need the **Linux version** but the platform (AppleSilicon, AMD64, etc.) depends on that platform your container will run on (usually AppleSilicon).
 
 You'll need to store that CLI locally in this folder from which you will build the container.
 
