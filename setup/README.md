@@ -19,7 +19,7 @@ xcode-select --install
 
 Clone the demo repository and all of its submodules:
 
-``bash
+```bash
 git clone --recurse-submodules https://github.com/eti-tme-org/apisec-cicd-demo
 ```
 
