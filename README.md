@@ -128,7 +128,7 @@ export DEMO_FUZZ_OAS="openapi/petstore.json"
 
 export CONTROLLER_ID=$(./apisec_cli apisec-job list-controllers | sed '1d' | head -1 | awk '{print $1;}')
 
-./src/apisec_cli apisec-job start-fuzzing --poll \
+./apisec_cli apisec-job start-fuzzing --poll \
      --controller-id ${CONTROLLER_ID} \
      --fuzzing-depth Quick \
      --url ${DEMO_FUZZ_URL} ${DEMO_FUZZ_OAS} 2>&1 | tee output.txt
@@ -139,7 +139,7 @@ export JOB_ID=$(cat output.txt | cut -d\" -f2)
 Fetch results:
 
 ```bash
-./src/apisec_cli apisec-job get --summary ${JOB_ID}
+./apisec_cli apisec-job get --summary ${JOB_ID}
 ```
 
 Get JSON output of findings.  Note: argument order is important.  Also, the results include far more information that summary report above:
