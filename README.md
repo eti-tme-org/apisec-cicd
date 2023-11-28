@@ -128,7 +128,7 @@ export DEMO_FUZZ_OAS="openapi/petstore.json"
 
 export CONTROLLER_ID=$(./apisec_cli apisec-job list-controllers | sed '1d' | head -1 | awk '{print $1;}')
 
-./apisec_cli apisec-job start-fuzzing --poll \
+./apisec_cli apisec-job start-fuzzing \
      --controller-id ${CONTROLLER_ID} \
      --fuzzing-depth Quick \
      --url ${DEMO_FUZZ_URL} ${DEMO_FUZZ_OAS} 2>&1 | tee output.txt
