@@ -56,7 +56,7 @@ Install the dependencies from Homebrew
 
 ```bash
 # Should still be in (apisec-cicd-demo)/setup directory
-brewfile bundle install -f Brewfile
+brew bundle install --file Brewfile
 ```
 
 ### Panoptica Components
