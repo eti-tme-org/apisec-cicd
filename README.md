@@ -72,10 +72,10 @@ These first two tasks do not require an API Security controller to be deployed a
 ### Submit a scoring job
 
 ```bash
-./apisec_cli apisec-job start-oas-scoring openapi/carts.json
+./apisec_cli apisec-job start-oas-scoring openapi/carts.json 2>&1 | tee output.txt
 
 # Copy job id string into env var
-export JOB_ID=....
+export JOB_ID=$(cat output.txt | cut -d\" -f2)
 ```
 
 Check on job status (poll means wait for completion):
@@ -99,9 +99,9 @@ Get JSON output of findings.  Note: argument order is important.  Also, the resu
 ### 3rd party API scoring
 
 ```bash
-./apisec_cli apisec-job start-third-party-api-scoring --poll --url https://api.weather.gov
+./apisec_cli apisec-job start-third-party-api-scoring --poll --url https://api.weather.gov 2>&1 | tee output.txt
 
-export JOB_ID=...
+export JOB_ID=$(cat output.txt | cut -d\" -f2)
 ```
 
 Fetch results:
@@ -128,16 +128,18 @@ export DEMO_FUZZ_OAS="openapi/petstore.json"
 
 export CONTROLLER_ID=$(./apisec_cli apisec-job list-controllers | sed '1d' | head -1 | awk '{print $1;}')
 
-./src/apisec_cli apisec-job start-fuzzing --poll \
+./apisec_cli apisec-job start-fuzzing \
      --controller-id ${CONTROLLER_ID} \
      --fuzzing-depth Quick \
-     --url ${DEMO_FUZZ_URL} ${DEMO_FUZZ_OAS} 
+     --url ${DEMO_FUZZ_URL} ${DEMO_FUZZ_OAS} 2>&1 | tee output.txt
+
+export JOB_ID=$(cat output.txt | cut -d\" -f2)
 ```
 
 Fetch results:
 
 ```bash
-./src/apisec_cli apisec-job get --summary ${JOB_ID}
+./apisec_cli apisec-job get --summary ${JOB_ID}
 ```
 
 Get JSON output of findings.  Note: argument order is important.  Also, the results include far more information that summary report above:

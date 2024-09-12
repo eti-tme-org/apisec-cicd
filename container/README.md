@@ -2,7 +2,13 @@
 
 ## Instructions
 
-Download (or copy from the parent) the API Security CICD CLI binary from the Panoptica [API Security](https://console.panoptica.app/settings/api_sec) Settings page.  You'll need the Linux version but the platform (AppleSilicon, AMD64, etc.) depends on that platform your container will run on.
+Download (or copy from the parent) the API Security CICD CLI binary from the Panoptica [API Security](https://console.panoptica.app/settings/api_sec) Settings page.  You'll need the **Linux version** but the platform (AppleSilicon, AMD64, etc.) depends on that platform your container will run on (usually AppleSilicon).
+
+You'll need to store that CLI locally in this folder from which you will build the container.
+
+```bash
+mv ${HOME}/Downloads/apisec_cli .
+```
 
 Build the container locally:
 
@@ -10,20 +16,20 @@ Build the container locally:
 docker build -f Dockerfile -t apisec:0.1 -t apisec:latest .
 ```
 
-Set up the Panoptica API keys for the API Security CLI. This assumes that you have updated the contents of the file with the actual API Security keys from the Panoptica [API Security](https://console.panoptica.app/settings/api_sec) Settings page (see [README.md](../README.md)):
+Set up the Panoptica API keys for the API Security CLI to authenticate and submit jobs to the Panoptica SaaS. To do this, you must update the contents of the [cicd.api.keys](../config/cicd.api.keys) file using the actual API Security keys from the Panoptica [API Security](https://console.panoptica.app/settings/api_sec) Settings page (see [README.md](../README.md) for further details).
 
 ```bash
 source ../config/cicd.api.keys
 ```
 
-Create the local OpenAPI spec folder (assumes you followed [README.md](../README.md) instructions for building the OpenAPI folder):
+Create the local OpenAPI spec folder that the container will leverage. To populate the contents of the source OpenAPI folder, you need to follow the instruction in the parent [README.md](../README.md):
 
 ```bash
 mkdir -p openapi
 cp ../openapi/*.json openapi
 ```
 
-If you didn't build the central openapi folder above, simply find the carts.json (in the sock-shop-specs) and the petstore.json (parent directory) swagger files and copy them into an openapi folder.
+If you didn't build the central openapi folder above, you can simply find the carts.json (in the sock-shop-specs) and the petstore.json (parent directory) swagger files and copy them into an openapi folder.
 
 Start the container and start the container's bash shell:
 
