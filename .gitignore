@@ -1,4 +1,5 @@
 .DS_Store
 Brewfile.lock.json
 apisec_cli
+apisec_cli.*
 openapi/
